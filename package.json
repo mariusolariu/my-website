@@ -1,7 +1,7 @@
 {
   "version": "1.0.1",
   "name": "gatsby-starter-blog-and-cv",
-  "description": "Gatsby starter for Blog and CV",
+  "description": "Marius' info page",
   "main": "n/a",
   "private": false,
   "scripts": {
@@ -13,8 +13,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "repository": "https://github.com/dospolov/gatsby-starter-blog-and-cv",
-  "author": "Marat Dospolov <marat.dospolov@gmail.com>",
+  "author": "Marius Olariu <marius.lucian.olariu@gmail.com>",
   "license": "MIT",
   "keywords": [
     "gatsby",
