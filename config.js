@@ -1,9 +1,9 @@
 module.exports = {
-  url: 'https://gatsby-starter-blog-and-cv.netlify.app',
+  url: '',
   pathPrefix: '/',
   title: 'Marius Olariu',
   keywords:
-    'account surfer, trello bookmark, trello, productivity, javascript, Marat Dospolov, choosy windows, browser selector',
+    '',
   subtitle: 'Software Engineer',
   copyright: '© 2021 | Oxford, United Kingdom',
   disqusShortname: 'molariu',

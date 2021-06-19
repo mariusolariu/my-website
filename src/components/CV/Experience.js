@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, Row, Col, Divider, Tag } from 'antd'
+import MyCard from './MyCard';
 
 const Experience = ({ experience }) => (
   <>
@@ -7,23 +8,12 @@ const Experience = ({ experience }) => (
     <Card className="work-experience">
       {experience.map((item, i) => (
         <Row type="flex" justify="space-around" key={item.company.name}>
-          <Divider orientation="left" className={i === 0 && 'mt-0'}>
-            {item.company.period}
-          </Divider>
-          <Col span={4} className="hide-mobile">
-            {item.company.logo ? (
-              <div>
-                <img
-                  src={`/companies/${item.company.logo}`}
-                  alt={item.company.name}
-                  className="max-w-3/4 inline"
-                />
-              </div>
-            ) : (
-              <h2 className="text-2xl">{item.company.name}</h2>
-            )}
+          <Divider></Divider>
+          <Col span={6}>
+            <MyCard {...item.company} />
           </Col>
-          <Col xs={24} sm={24} md={20} lg={20} xl={20}>
+
+          <Col xs={14} sm={14} md={14} lg={14} xl={14}>
             {item.projects.map((project, i) => (
               <Row type="flex" justify="space-around" key={project.name} className="mb-5">
                 {project.logo && (
@@ -38,13 +28,6 @@ const Experience = ({ experience }) => (
                 <Col span={project.logo ? 19 : 24} className="text-lg">
                   <h3>{project.role}</h3>
                   <p>{project.description}</p>
-                  {project.achievements && (
-                    <ul>
-                      {project.achievements.map(achievement => (
-                        <li key={achievement}>{achievement}</li>
-                      ))}
-                    </ul>
-                  )}
                   <div className="py-1">
                     {project.stack.me &&
                       project.stack.me.map(tech => (

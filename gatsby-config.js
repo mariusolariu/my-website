@@ -13,6 +13,7 @@ module.exports = {
     author: siteConfig.author
   },
   plugins: [
+    
     {
       resolve: 'gatsby-source-filesystem',
       options: {
