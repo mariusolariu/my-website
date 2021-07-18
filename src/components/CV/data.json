@@ -6,7 +6,7 @@
       "src": "/marius_icon.jpg",
       "alt": "Marius Olariu"
     },
-    "location": "Oxford, United Kingdom",
+    "location": "NW10 7GL, London, United Kingdom",
     "contacts": [
       {
         "type": "",
@@ -15,7 +15,7 @@
       }
     ]
   },
-  "pitchLine": "  I am a Software Engineer with experience in developing software for Web and Desktop Operating Systems, some of the technologies that I have been using are Java, JavaScript, React, Node and Java for Android development. I would say that my most important professional quality is the love for learning.",
+  "pitchLine": "I am a degree educated Software Engineer with 3 years of experience in developing software for Web and Desktop Operating Systems. My work philosophy is to bring as much value as I can to the workplace because we are not paid for the time but for the value we bring. To assure my professional growth I set quarterly objectives for myself, continuously expand my skills, take new responsibilities and accept feedback graciously.",
   "experiments": [
     {
       "name": "Account Surfer",
@@ -207,7 +207,7 @@
           "name": "Diffblue",
           "logoHeight": 80,
           "role": "Software Engineer",
-          "description": "In this role I am writing software in Java in an Agile environment for Diffblue Cover, a tool powered by AI that automatically generates (unit) tests for Java code. I make a consistent commitment to growth by embracing continuous learning (i.e. each Sprint I study a topic relevant for my work) and by taking new responsibilities (e.g. lead stand-ups and Sprint Retrospectives). Last, but not least, I set up and maintain an online environment where the product can be tried, see diffblue.com/try-cover-browser .",
+          "description": "In this role I am writing software in Java in an Agile environment for Diffblue Cover, a tool powered by AI that automatically generates (unit) tests for Java code. I make a consistent commitment to growth by embracing continuous learning (i.e. each Sprint I study a topic relevant for my work) and by taking new responsibilities (e.g. lead stand-ups and Sprint Retrospectives). Last, but not least, I set up and maintain an online environment where the product can be tried, see diffblue.com/try-cover-browser",
           "stack": {
             "me": [
               "Java",
@@ -233,7 +233,7 @@
           "name": "Diffblue",
           "logoHeight": 80,
           "role": "Junior Fullstack Developer",
-          "description": "Played an important role in the development and launch of a cloud addon for Jira. The addon allows you to bring context to Jira tickets by linking them to customer data. I helped through pair-programming sessions a Technical Consultant colleague to transition to Developer position. Throughout my time at New Verve Consulting I took advantage of the half-day per week alloted to career development to study the relevant technologies for the job. Managed my time between writing my MSc dissertation and the job successfully.",
+          "description": "Played an important role in the development and launch of a cloud addon for Jira. The addon allows you to bring context to Jira tickets by linking them to customer data. I helped through pair-programming sessions one of my colleagues to transition from a Technical Consultant position to a Developer one. Throughout my time at New Verve Consulting I took advantage of the half-day per week allotted to career development to improve with the relevant technologies for the position. Managed my time between writing my MSc dissertation and the position successfully.",
           "stack": {
             "me": [
               "JavaScript",
@@ -259,7 +259,7 @@
           "name": "SSI Schaefer",
           "logoHeight": 80,
           "role": "Junior Software Engineer",
-          "description": "Got exposed to the world of professional software development with Java while I was still finishing my last year of BSc studies. I worked on the development of a software for a vertical lift module (LOGIMAT) that allowed goods in a warehouse to be stored and managed efficiently. Managed my time successfully between the job and my last year of BSc studies.",
+          "description": "Got exposed to the world of professional software development with Java as well as finishing my last year of BSc studies in Computer Science. I worked on the development of software for a vertical lift module (LOGIMAT) that allowed goods in a warehouse to be stored and managed efficiently. Managed my time successfully between the position and my last year of BSc studies.",
           "stack": {
             "me": [
               "Java",

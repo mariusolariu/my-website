@@ -23,6 +23,7 @@ export default function MyCard({ name, period, logo, location, website }) {
   {
     width: "90%",
     padding: "5px 10px",
+    float: "left",
     // border: "1px solid green"
   };
 
