@@ -53,12 +53,11 @@ export default function MyCard({ name, period, logo, location, website }) {
       </div>
 
       <div style={cardContent}>
-        <h3>{name}</h3>
+        <h3><a href={website}> {name} </a> </h3>
         <h3>{period}</h3>
         <h3>{location}</h3>
-        <h3><a href={website} target='_blank'>{website}</a></h3>
       </div>
 
-    </div>
+    </div >
   )
 }
