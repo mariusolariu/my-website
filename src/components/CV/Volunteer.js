@@ -12,7 +12,7 @@ const Volunteer = ({ volunteer }) => (
           </Divider>
           <Col span={6}>
             <img
-              src={`/companies/${activity.logo}`}
+              src={`/images/${activity.logo}`}
               alt={activity.place}
               className="max-w-3/4 inline"
             />

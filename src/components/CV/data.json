@@ -284,14 +284,42 @@
   ],
   "education": [
     {
-      "place": "Kiev Institute of Business and Technologies (KIBT)",
-      "period": "2012 - 2014",
-      "degree": "Bachelor's Degree, Management, Managment of business activities"
+      "name": "University of the West of Scotland",
+      "location": "Paisley, United Kingdom",
+      "period": "2018-2020",
+      "degree": "Mobile Web Development",
+      "website": "https://www.uws.ac.uk/",
+      "logo": "uws_logo.png",
+      "link_to_degree": "",
+      "programme_type": "Master of Science"
     },
     {
-      "place": "Moscow State Institute of Radio engineering, Electronics and Automation (MIREA)",
-      "period": "2007 - 2012",
-      "degree": "Master's Degree, Computer Science And Information Technologies, Software and computing systems (software engineer)"
+      "name": "Polytechnic University Timișoara",
+      "location": "Timișoara, Romania",
+      "period": "2014-2018",
+      "degree": "Computer and Software Engineering",
+      "website": "https://www.upt.ro/Universitatea-Politehnica-Timisoara_en.html",
+      "link_to_degree": "",
+      "logo": "logo_upt.png",
+      "programme_type": "Bachelor of Science"
+    },
+    {
+      "name": "Linköping University",
+      "location": "Linköping, Sweden",
+      "period": "Spring semester 2017",
+      "degree": "Exchange Semester",
+      "website": "https://liu.se/en",
+      "logo": "liu_logo.png",
+      "programme_type": "Erasmus Programme"
+    },
+    {
+      "name": "Radboud University",
+      "location": "Nijmegen, The Netherlands",
+      "period": "Autumn semester 2016",
+      "degree": "Exchange semester",
+      "website": "https://www.ru.nl/english/",
+      "logo": "radboud_logo.png",
+      "programme_type": "Erasmus Programme"
     }
   ],
   "recommendations": [

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, Row, Col, Divider } from 'antd'
+import MyCard from "./MyCard";
 
 const Education = ({ education }) => (
   <>
@@ -13,13 +14,13 @@ const Education = ({ education }) => (
           className="text-lg"
         >
           <Divider orientation="left" className={i === 0 && 'mt-0'}>
-            {institution.period}
           </Divider>
           <Col span={10}>
-            <h3>{institution.place}</h3>
+            <MyCard {...institution} />
           </Col>
           <Col span={13}>
             <h3>{institution.degree}</h3>
+            <h3>{institution.programme_type}</h3>
           </Col>
         </Row>
       ))}

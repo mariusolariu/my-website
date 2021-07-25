@@ -51,7 +51,7 @@ const Experience = ({ experience }) => (
                 {project.logo && (
                   <Col span={5}>
                     <img
-                      src={`/companies/${project.logo}`}
+                      src={`/images/${project.logo}`}
                       alt={project.name}
                       className="max-w-3/4 inline"
                     />

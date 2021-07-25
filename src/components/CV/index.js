@@ -21,14 +21,14 @@ const CV = () => (
       {data.header && <Header header={data.header} />}
       {data.pitchLine && <PitchLine pitchLine={data.pitchLine} />}
       {data.experience && <Experience experience={data.experience} />}
-      {data.experiments && (
-        <Experiments experiments={data.experiments} tech={data.tech} />
-      )}
-      {data.tech && data.topTech && <TopTech topTech={data.topTech} tech={data.tech} />}
-      {data.skills && <SkillList skills={data.skills} />}
-      {data.volunteer && <Volunteer volunteer={data.volunteer} />}
       {data.education && <Education education={data.education} />}
+      {data.volunteer && <Volunteer volunteer={data.volunteer} />}
       {data.recommendations && <Recommendations recommendations={data.recommendations} />}
+      {/* {data.experiments && ( */}
+      {/* <Experiments experiments={data.experiments} tech={data.tech} /> */}
+      {/* )} */}
+      {/* {data.tech && data.topTech && <TopTech topTech={data.topTech} tech={data.tech} />} */}
+      {/* {data.skills && <SkillList skills={data.skills} />} */}
       {data.footer && <Footer footer={data.footer} />}
     </Content>
   </>

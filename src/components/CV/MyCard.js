@@ -47,13 +47,13 @@ export default function MyCard({ name, period, logo, location, website }) {
     <div style={card}>
       <div style={cardImage}>
         <img
-          src={`/companies/${logo}`}
+          src={`/images/${logo}`}
           alt={name}
         />
       </div>
 
       <div style={cardContent}>
-        <h3><a href={website}> {name} </a> </h3>
+        <h3><a href={website} target="_blank"> {name} </a> </h3>
         <h3>{period}</h3>
         <h3>{location}</h3>
       </div>
