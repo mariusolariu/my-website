@@ -4,7 +4,7 @@ import MyCard from "./MyCard";
 
 const Education = ({ education }) => (
   <>
-    <h3 className="text-center mt-1 mb-0">Education</h3>
+    <h3 className="text-center mt-10 mb-5">Education</h3>
     <Card className="education">
       {education.map((institution, i) => (
         <Row
